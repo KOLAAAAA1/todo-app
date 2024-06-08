@@ -8,9 +8,9 @@ import {
   Delete,
   Put,
 } from '@nestjs/common';
-import { TodosService } from './todos.service';
-import { ToDosResponse, ToDoResponse } from 'src/constants/todos.constant';
-import { BaseResponse } from 'src/constants/base.constant';
+import { TodosService } from '../../modules/todos/services/todos.service';
+import { ToDosResponse, ToDoResponse } from 'src/common/constants/todos.constant';
+import { BaseResponse } from 'src/common/constants/base.constant';
 
 @Controller('to-dos')
 export class TodosController {

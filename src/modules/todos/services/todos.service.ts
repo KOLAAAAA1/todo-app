@@ -1,6 +1,6 @@
 import { Injectable, NotFoundException } from '@nestjs/common';
 import { Todo } from 'src/schemas/todos.schema';
-import { randomId } from 'src/utils/random-id';
+import { randomId } from 'src/common/utils/random-id';
 
 @Injectable()
 export class TodosService {
